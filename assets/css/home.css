@@ -101,6 +101,8 @@ p{
 }
 .assistant-teacher img{
     position: relative;
+    max-width: 253px;
+    width: 100%;
     z-index: 2;
 }
 .assistant-item{
@@ -532,7 +534,7 @@ p{
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 24px;
-
+    background-size: cover;
 }
 
 .spending-less .assistant-info h2{
@@ -587,6 +589,7 @@ p{
         width: 57px;
         height: 54px;
         background-image: url(../img/cheerful-pink-mob.png);
+        background-size: cover;
     }
 
     .possibilities-sec h2 {
@@ -791,6 +794,7 @@ p{
 }
 .advantages-sec .spending-less:after {
     background-image: url(../img/stars.png);
+    background-size: cover;
 }
 
 @media (max-width: 991px){
@@ -835,6 +839,9 @@ p{
         max-width: 244px;
         font-size: 14px;
         line-height: 18px;
+    }
+    .spending-less .assistant-info h2 {
+        max-width: 166px;
     }
 }
 /*===============-advantages-style-end-================*/
