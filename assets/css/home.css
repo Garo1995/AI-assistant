@@ -471,7 +471,7 @@ p{
 .possibilities-href{
     gap: 12px;
 }
-.possibilities-href a{
+.possibilities-href span{
     display: flex;
     transition: 0.3s;
     color: #1F272A;
@@ -487,8 +487,7 @@ p{
     background: #FF6B6B;
 }
 
-
-.possibilities-red .possibilities-href a{
+.possibilities-red .possibilities-href span {
     border-bottom: 2px solid #FF6B6B;
 }
 
@@ -502,11 +501,8 @@ p{
     color: #222222;
 }
 
-.possibilities-green .possibilities-href a{
+.possibilities-green .possibilities-href span{
     border-bottom: 2px solid #A7F3D0;
-}
-.possibilities-href a:hover{
-    border-bottom: 2px solid transparent;
 }
 
 .spending-less{
@@ -613,7 +609,7 @@ p{
     .spending-less {
         padding: 40px 24px;
     }
-    .possibilities-href a {
+    .possibilities-href span {
         font-size: 12px;
     }
     .possibilities-title {
