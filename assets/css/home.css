@@ -720,7 +720,7 @@ p{
         padding: 150px 110px;
     }
     .university-sec:before {
-        height: 160px;
+        height: 220px;
     }
     .university-sec:after {
         height: 180px;
@@ -785,6 +785,7 @@ p{
     position: absolute;
     top: 0;
     right: 0;
+    height: 100%;
 }
 .advantages-photo img{
     border-radius: 0 0 24px 0;
@@ -831,6 +832,7 @@ p{
         right: 0;
         max-width: 210px;
         bottom: 0;
+        height: auto;
     }
     .advantages-box {
         height: 226px;
